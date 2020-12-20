@@ -6,6 +6,8 @@ sudo apt-get purge --remove nwfermi-daemon nwfermi-module nwfermi-module-host nw
 
 # Instala los drivers nuevos
 
+# Los paquetes daemon, host y host-pointer no pueden estar instalados al mismo tiempo.
+
 sudo apt-get install libc6-i386 -y
 sudo dpkg -i ./focal/nwfermi-daemon_0.6.5.1-0+lliurex6+focal_amd64.deb
 sudo dpkg -i ./focal/nwfermi-module_0.6.5.1-0+lliurex6+focal_amd64.deb
