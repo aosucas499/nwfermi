@@ -20,6 +20,3 @@ nwfermi drivers for smartboard devices
     
     chmod +x nwfermi-focal (if the sistem is based on ubuntu 20.04)
 
-    sudo ./nwfermi-bionic (if the sistem is based on ubuntu 18.04)
-    
-    sudo ./nwfermi-focal (if the sistem is based on ubuntu 20.04)
