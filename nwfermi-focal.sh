@@ -2,7 +2,11 @@
 
 # borra los drivers antiguos del sistema
 
-sudo apt-get purge --remove nwfermi-daemon nwfermi-module nwfermi-module-host nwfermi-module-host-pointer xf86-input-nextwindow -y
+sudo apt-get purge --remove nwfermi-daemon -y
+sudo apt-get purge --remove nwfermi-module -y
+sudo apt-get purge --remove nwfermi-module-host -y
+sudo apt-get purge --remove nwfermi-module-host-pointer -y
+sudo apt-get purge --remove xf86-input-nextwindow -y
 
 # Instala los drivers nuevos
 
